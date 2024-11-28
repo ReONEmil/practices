@@ -9,14 +9,14 @@ password length is sucient.
 
 """
 
-while True:
-    password = input("Enter your password: ").strip()
+# while True:
+#     password = input("Enter your password: ").strip()
 
-    password_witoutspaces = password.replace(" ", "")
+#     password_witoutspaces = password.replace(" ", "")
 
-    if len(password_witoutspaces) < 8:
-        print("Your password is too short, must be at least 8 characters long")
-        continue
+#     if len(password_witoutspaces) < 8:
+#         print("Your password is too short, must be at least 8 characters long")
+#         continue
 
-    print("Password accepted")
-    break
+#     print("Password accepted")
+#     break

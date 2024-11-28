@@ -10,29 +10,29 @@ break to exit the loop when the factors are
 
 """
 
-number = int(input())
+# number = int(input())
 
-if number < 2:
-    print(f"{number} is not a prime number")
-else:
-    i = 2
-    is_prime = True
-    factors = []
+# if number < 2:
+#     print(f"{number} is not a prime number")
+# else:
+#     i = 2
+#     is_prime = True
+#     factors = []
 
 
-    while i <= number // 2:
-        if number % i == 0:
-            is_prime = False
-            factors.append(i)
-            break
-        i += 1
+#     while i <= number // 2:
+#         if number % i == 0:
+#             is_prime = False
+#             factors.append(i)
+#             break
+#         i += 1
     
 
-    if is_prime:
-        print(f"{number} is a prime number")
+#     if is_prime:
+#         print(f"{number} is a prime number")
 
-    else:
-        factors = [i for i in range(1, number + 1) if number % i == 0]
+#     else:
+#         factors = [i for i in range(1, number + 1) if number % i == 0]
 
-        print(f"{number} is not a prime number")
-        print(f"Factors are:", factors)
+#         print(f"{number} is not a prime number")
+#         print(f"Factors are:", factors)

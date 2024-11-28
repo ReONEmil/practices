@@ -6,18 +6,18 @@ is reached, using continue to skip odd numbers.
 
 """
 
-limit = int(input("Enter the limit: "))
+# limit = int(input("Enter the limit: "))
 
-number = 2
+# number = 2
 
-print("Even numbers until the ", limit, "are:")
+# print("Even numbers until the ", limit, "are:")
 
-while number <= limit:
-    if number % 2 != 0:
-        number += 1
-        continue
+# while number <= limit:
+#     if number % 2 != 0:
+#         number += 1
+#         continue
     
-    print(number, end=" ")
+#     print(number, end=" ")
     
-    number += 1
+#     number += 1
 

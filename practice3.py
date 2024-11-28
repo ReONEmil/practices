@@ -14,24 +14,24 @@ Use a while loop with break to limit the number of rows printed.
 
 
 
-numberof_row = int(input())
+# numberof_row = int(input())
 
-row = 1
-while True:
-    if row > numberof_row:  
-        break
-    for num in range(1, row + 1):
-        print(num, end =" ")
-    print()
+# row = 1
+# while True:
+#     if row > numberof_row:  
+#         break
+#     for num in range(1, row + 1):
+#         print(num, end =" ")
+#     print()
 
-    row += 1
+#     row += 1
 
 
-row = numberof_row - 1
-while True:
-    if row == 0:
-        break
-    for num in range(1, row + 1):
-        print(num, end = " ")
-    print()
-    row -= 1
+# row = numberof_row - 1
+# while True:
+#     if row == 0:
+#         break
+#     for num in range(1, row + 1):
+#         print(num, end = " ")
+#     print()
+#     row -= 1
